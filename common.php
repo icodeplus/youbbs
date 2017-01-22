@@ -182,7 +182,7 @@ function showtime2($db_time){
 function set_content_rich($text, $spider='0'){
     global $options;
     // images
-    $img_re = '/(http[s]?:\/\/?('.$options['safe_imgdomain'].').+\.(jpg|jpe|jpeg|gif|png))\w*/';
+    $img_re = '/(http[s]?:\/\/?[^\/]*('.$options['safe_imgdomain'].').+\.(jpg|jpe|jpeg|gif|png))\w*/';
     if(preg_match($img_re, $text)){
         if(!$spider){
             $text = preg_replace($img_re, '<img src="'.$options['base_url'].'/static/grey2.gif" data-original="\1" alt="" />', $text);
