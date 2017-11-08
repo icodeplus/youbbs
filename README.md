@@ -1,4 +1,4 @@
-#YouBBS for VPS v2.01
+# YouBBS for VPS v2.01 （已转到golang 版 https://github.com/ego008/goyoubbs ）
 
 #### 感谢 eoen 作了v2.0 的工作。让youBBS 更好看，代码更整齐，也让我有点动力更新youBBS。
 
