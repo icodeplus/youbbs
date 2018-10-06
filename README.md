@@ -15,7 +15,6 @@
 
 #####YouBBS 是一款轻量级的论坛程序，基于标准的php+mysql环境;为了让url更优美，服务器必须支持rewrite。
 
-####demo示例 [V2demo](http://www.skodacn.com/)
 ####
 <p>youBBS是开源项目，可自由修改，但要保留Powered by YouBBS链接信息</p>
 
